@@ -4,3 +4,23 @@ package: Custom
 
 type: module
 core: 8.x
+
+# Dependencies
+#dependecies:
+# Format
+# - {project name}:{module name}
+# - link:link
+# - drupal:views
+
+# Link to configuration page will show
+# up as link in Extend UI.
+#configure: hello_world.settings
+
+# Hide module for Extend UI.
+# Useful when contains only test.
+# $settings['extension_discovery_scan_tests'] = TRUE
+# in settings.php will make these hidden modules visible. 
+#hidden: true
+
+# Added automatically by packager on drupal.org
+#version: 1.0
